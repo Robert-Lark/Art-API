@@ -39,7 +39,7 @@ axios
 						res.data.medium,
 						res.data.objectBeginDate,
 						res.data.objectEndDate,
-						res.data.country,
+						res.data.country
 					)
 				);
 			})
@@ -50,6 +50,11 @@ axios
 	.catch((err) => {
 		console.log("oh no!, ", err);
 	});
+
+const headline = document.createElement("h1");
+headline.classList.add = "headline";
+headline.innerText = "Dads Daily Artwork";
+ofTheDaySection.insertAdjacentElement("beforebegin", headline);
 
 function ofTheDayComponant(
 	artistDisplayName,
@@ -95,5 +100,3 @@ function ofTheDayComponant(
 		ofTheDayDiv.appendChild(ofTheDayP);
 	}
 }
-
-
