@@ -127,16 +127,7 @@ html {
   box-sizing: border-box;
   background: cornsilk;
 }
-h2 {
-  border: 2px solid purple;
-}
-img {
-  border: 2px solid blue;
-}
-p {
-  border: 2px solid black;
-}
-.body {
+body {
   background-color: cornsilk;
 }
 .ofTheDaySection {
@@ -148,7 +139,6 @@ p {
   align-content: auto;
   width: 100vw;
   height: 100vh;
-  border: 12px solid black;
 }
 .artComp {
   Display: flex;
@@ -159,9 +149,14 @@ p {
   align-content: auto;
   width: 50%;
   height: 75%;
-  border: 2px solid red;
+}
+.ofTheDayh2 {
+  font-size: 3rem;
 }
 .ofTheDayImg {
   width: 50%;
   height: 65%;
+}
+.ofTheDayP {
+  font-size: 2rem;
 }
